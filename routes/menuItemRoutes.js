@@ -45,5 +45,6 @@ router.get('/:testType',async (req , res)=>{
     console.log(err);
     res.status(500).json({error:"Invalid test type"});
   }
+  // comments added for testing purpose 
 });
 module.exports = router;
