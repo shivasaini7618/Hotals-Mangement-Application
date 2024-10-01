@@ -11,19 +11,16 @@ Key Features:
 
 1 Staff Management:
 
-Add, update, and delete staff details (e.g., name, role, shift timings, contact information).
+Add, update, and delete staff details (e.g., name, work, contact information).
 View and manage staff lists.
 
 2 Menu Management:
 
 Add, update, and delete menu items.
-Categorize menu items (e.g., starters, main course, desserts).
+Categorize menu items.
 Set prices and update availability.
-User Roles:
 
-Admins: Full access to manage staff and menu information.
-Staff: Limited access to view certain menu or staff-related data.
-Database:
+3 Database:
 
 MongoDB stores information about staff, menu items, and other relevant data.
 Easy retrieval and updating of information via Express.js API routes.
